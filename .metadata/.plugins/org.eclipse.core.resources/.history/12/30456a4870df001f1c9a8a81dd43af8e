@@ -1,0 +1,28 @@
+package com.devsuperior.services;
+
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.entities.Employee;
+
+@Service
+public class SalaryService {
+	
+	
+	private TaxService taxService;
+	private PensionService pensionService;
+		
+	public SalaryService(TaxService taxservice, PensionService pensionservice) {
+		this.taxService = taxService;
+		this.pensionService = pensionService;
+			
+	   
+		   
+		}
+
+	public char[] netSalary(Employee employee, double d) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+package com.devsuperior.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.devsuperior.entities.Employee;
+ 
+@Service
+public class SalaryService {
+	
+	//forma errada
+	TaxService taxService = new TaxService();
+	PensionService pensionService = new PensionService();
+	
+	
+	
+	 public double netSalary(Employee employee) { 
+		 return null;
+		 
+	 }
+	 
+	 
+	
+}

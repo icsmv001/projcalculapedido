@@ -1,0 +1,33 @@
+package com.devsuperior.order.services;
+
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.order.entities.Order;
+
+@Service
+public class ShippingService {
+	
+	// public double shipment(double amount) {
+	// return amount * 0.2 ; 
+	// }
+	
+		public double shipment(double amount) {
+	        if (amount < 100.00)
+	        {
+	        	amount = 20.00;
+	        }
+	        if (amount >= 100 && amount < 200)
+	        {
+	        	amount = 12;
+	        }
+	        else {
+	        	amount = 0.00;
+	        }
+	        return amount;
+	    }
+
+			
+			
+			
+	
+}

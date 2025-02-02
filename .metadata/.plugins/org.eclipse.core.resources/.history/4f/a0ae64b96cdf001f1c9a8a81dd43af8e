@@ -1,0 +1,22 @@
+package entities;
+
+public class Employee {
+
+   private String name;
+   private double grossSalary;
+   
+// construtor vazio
+public Employee() {
+}
+
+// construtor com argumentos
+public Employee(String name, double grossSalary) {
+	   
+   this.name = name;
+   this.grosssalary = grossSalary;	
+	
+}
+
+// criar get e sets ...
+
+

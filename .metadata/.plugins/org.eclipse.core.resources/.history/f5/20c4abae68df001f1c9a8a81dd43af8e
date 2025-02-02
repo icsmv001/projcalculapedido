@@ -1,0 +1,4 @@
+ 
+
+spring.application.name=aula
+security.basic.enabled=false
